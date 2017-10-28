@@ -7,19 +7,19 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home"
-            android:title="Home" />
+            android:title="Test Intent" />
         <item
             android:id="@+id/nav_artist"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Artist" />
+            android:title="Test Url" />
         <item
             android:id="@+id/nav_aboutus"
             android:icon="@drawable/about"
-            android:title="AboutUs" />
+            android:title="Contoh CardView" />
         <item
             android:id="@+id/nav_syarat"
             android:icon="@drawable/ic_syarat"
-            android:title="SyaratKetentuan" />
+            android:title="Contoh ListView" />
         <item
             android:id="@+id/nav_pertanyaan"
             android:icon="@drawable/ic_tanya"
@@ -31,11 +31,11 @@
             <item
                 android:id="@+id/nav_login"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Login" />
+                android:title="Gak Ada" />
             <item
                 android:id="@+id/nav_daftar"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Daftar" />
+                android:title="Gak Ada Juga" />
         </menu>
     </item>
 

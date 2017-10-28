@@ -27,10 +27,13 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:largeHeap="true"
+        android:noHistory="true"
         android:supportsRtl="true"
+        android:hardwareAccelerated="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
+            android:name=".SplashActivity"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -47,7 +50,26 @@
             android:name=".ResetPassword"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".ContohCardView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContohListView"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LoginActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TidakTersedia"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LoginGoogle"
+            android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"/>
 
     </application>

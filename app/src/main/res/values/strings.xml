@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">SpecialGirl</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_Logout">Settings</string>
+
+    <string name="minimum_password">Password terlalu pendek, masukan  minimum 6 karakter!</string>
+    <string name="auth_failed">Autentikasi Gagal, cek email dan password anda atau Akun anda tidak terdaftar</string>
+    <string name="action_sign_in_short">Daftar</string>
+    <string name="email">Email</string>
+    <string name="change_email">Ganti Email</string>
+    <string name="change_password">Ganti Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Hapus Akun</string>
+    <string name="new_pass">Password Baru</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Lupa Kata Sandi?</string>
+    <string name="btn_reset_password">Atur Ulang Sandi</string>
+    <string name="btn_back"><![CDATA[<< Kembali]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">Kita hanya perlu Email Anda untuk mengirimkan petunjuk untuk mengatur ulang kata sandi anda.</string>
+    <string name="selamatdatang">Selamat Datang</string>
+    <string name="autentikasi">Diperlukan akun untuk masuk</string>
+    <string name="masukgoogle">Masuk dengan akun Google</string>
+    <string name="masuk">Warga Sekolah</string>
+    <string name="kenapaharuslogin">Kenapa sih harus login?</string>
+    <string name="tamusekolah">Tamu Sekolah</string>
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="loading">Mempersiapkan Special Girl...</string>
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+
+    <string name="title_text">Google Sign-In\nQuickstart</string>
+
+    <!-- Sign-in status messages -->
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+    <string name="auth_code_fmt">Auth Code: %s</string>
+    <string name="id_token_fmt">ID Token: %s</string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+
+    <!-- Button labels -->
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="refresh_token">Get Fresh Token</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_google_icon">Google Logo</string>
+
+    <!-- Rationale for asking for Contacts -->
+    <string name="contacts_permission_rationale">Contacts access is needed in order to retrieve your email address.</string>
+
+    <!-- Activity Names and Descriptions -->
+    <string name="name_sign_in_activity">SignInActivity</string>
+    <string name="desc_sign_in_activity">Signing in, signing out, and revoking access.</string>
+    <string name="desc_sign_in_activity_scopes">Signing in, signing out, and revoking access with Google Drive permissions.</string>
+
+    <string name="name_id_token_activity">IdTokenActivity</string>
+    <string name="desc_id_token_activity">Retrieving an ID Token for the user.</string>
+
+    <string name="desc_auth_code_activity">Demonstrate retrieving an auth code for authorizing your server.</string>
+    <string name="name_auth_code_activity">ServerAuthCodeActivity</string>
+
+    <string name="desc_rest_activity">Demonstrate using Google Sign In with a Google REST API</string>
+    <string name="name_rest_activity">RestApiActivity</string>
+
+    <!-- Messages for the Rest API activity -->
+    <string name="connections_fmt">Connections: %1$s</string>
+    <string name="msg_contacts_failed">Get contacts failed.</string>
+
+    <!-- TODO(user): replace with your real server client ID -->
+    <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
+         from https://console.developers.google.com/ -->
+    <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+
+</resources>

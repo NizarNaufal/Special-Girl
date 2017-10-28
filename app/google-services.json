@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "968354511854",
+    "firebase_url": "https://specialgirl-ebc6c.firebaseio.com",
+    "project_id": "specialgirl-ebc6c",
+    "storage_bucket": "specialgirl-ebc6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968354511854:android:db060075eb254c56",
+        "android_client_info": {
+          "package_name": "com.nizar.specialgirl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968354511854-njj6cnsoknu9041i3freo69jnqkuco69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nizar.specialgirl",
+            "certificate_hash": "2d1355cacd130cdebcc93642c975cac5497ea74f"
+          }
+        },
+        {
+          "client_id": "968354511854-1flsrsrgga4rki1cutmp7bifrrcrf8ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyH-q0cWO_lOjeLpzP6NAs24jeGec_P9U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968354511854-1flsrsrgga4rki1cutmp7bifrrcrf8ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

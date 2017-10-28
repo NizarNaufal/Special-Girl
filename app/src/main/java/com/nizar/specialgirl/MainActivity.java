@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Yaela Njenk, Dipelajarin Kodingannya", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Yaela, Dipelajarin Tuh Kodingannya", Snackbar.LENGTH_LONG)
                         .setAction("Iya Bang Poncoe", null).show();
                 //startActivity(new Intent(MainActivity.this, TidakTersedia.class));
             }

@@ -1,4 +1,4 @@
-package com.nizar.specialgirl;
+package com.nizar.specialgirl.java;
 
 /**
  * Created by Poncoe on 28/10/17.
@@ -12,6 +12,7 @@ import android.view.View;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.nizar.specialgirl.R;
 
 public class TidakTersedia extends Activity {
 

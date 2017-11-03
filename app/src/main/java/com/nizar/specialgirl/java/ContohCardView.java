@@ -1,17 +1,13 @@
-package com.nizar.specialgirl;
+package com.nizar.specialgirl.java;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
 import android.view.Window;
-import android.view.WindowManager;
-import android.widget.ImageView;
 
-import com.squareup.picasso.Picasso;
+import com.nizar.specialgirl.R;
 
 /**
  * Created by Poncoe on 29/10/17.

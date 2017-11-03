@@ -1,4 +1,4 @@
-package com.nizar.specialgirl;
+package com.nizar.specialgirl.java;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
+
+import com.nizar.specialgirl.R;
 
 /**
  * Created by Poncoe on 29/10/17.

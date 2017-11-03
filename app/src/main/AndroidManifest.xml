@@ -33,7 +33,7 @@
         android:hardwareAccelerated="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashActivity"
+            android:name=".java.SplashActivity"
             android:noHistory="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
@@ -44,33 +44,79 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignUpActivity"
+            android:name=".java.SignUpActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResetPassword"
+            android:name=".java.ResetPassword"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ContohCardView"
+            android:name=".java.ContohCardView"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ContohListView"
+            android:name=".java.ContohListView"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".java.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".LoginActivity"
+            android:name=".java.LoginActivity"
             android:noHistory="true"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".TidakTersedia"
+            android:name=".java.TidakTersedia"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".LoginGoogle"
+            android:name=".java.LoginGoogle"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"/>
+
+        <!-- Kalo lu mau pake kotlin lu bisa pake mainfest ini,
+        tinggal ilangin komennya aja, dan yang javanya lu komen / delete seterah
+
+        <activity
+            android:name=".kotlin.SplashActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".kotlin.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kotlin.ResetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kotlin.ContohCardView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kotlin.ContohListView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".kotlin.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kotlin.LoginActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kotlin.TidakTersedia"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kotlin.LoginGoogle"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+
+            batasnya cuma ini aja, pelajarin kotlin, liat perbedaan di package java biar paham.
+            sengaja ga gw ilangin biar lu paham sendiri.-->
 
     </application>
 

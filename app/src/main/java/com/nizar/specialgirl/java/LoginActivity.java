@@ -1,4 +1,4 @@
-package com.nizar.specialgirl;
+package com.nizar.specialgirl.java;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -17,6 +17,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.nizar.specialgirl.R;
 
 public class LoginActivity extends Activity {
 

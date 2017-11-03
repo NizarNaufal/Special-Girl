@@ -1,4 +1,4 @@
-package com.nizar.specialgirl;
+package com.nizar.specialgirl.java;
 
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -6,6 +6,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.nizar.specialgirl.R;
 
 import java.util.List;
 
